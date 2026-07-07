@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gegin Risho D - Data Analyst,Software Engineer</title>
-    <meta name="description" content="Portfolio of Gegin Risho D, a Software Engineer specializing in full-stack development, Python, and Machine Learning.">
+    <title>Gegin Risho D — Senior Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Gegin Risho D, a Software Engineer and Data Analyst specializing in full-stack web applications, machine learning, and data analytics.">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
+
+    <!-- Background Animated Blobs -->
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
 
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-content">
-            <a href="#" class="logo"><span>G</span>egin <span>R</span>isho</a>
+            <a href="#" class="logo">Gegin <span>Risho</span></a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#github-projects">GitHub</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="Gegin_Risho_Resume.pdf" target="_blank">Resume <i class="fas fa-external-link-alt" style="font-size:0.8rem; margin-left: 3px;"></i></a></li>
             </ul>
             <div class="hamburger">
-                <i class="fas fa-bars"></i>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
@@ -35,14 +46,14 @@
             <div class="hero-content">
                 <h3 class="fade-in-up">Hello, I'm</h3>
                 <h1 class="fade-in-up delay-1">Gegin Risho D</h1>
-                <h2 class="fade-in-up delay-2">Software Engineer, Data Analyst <span class="highlight">&</span> IT Professional</h2>
+                <h2 class="fade-in-up delay-2">Software Engineer <span class="highlight">&</span> Data Analyst</h2>
                 <p class="fade-in-up delay-3">
-                    A motivated CSE graduate (BE, 2025) with a passion for building scalable full-stack and mobile applications, intelligent machine learning models, data analytics, and crafting stunning visual experiences to drive business growth.
+                    A motivated CSE graduate (BE, 2025) with a passion for building scalable full-stack applications, intelligent machine learning models, managing data pipelines, and crafting stunning visual experiences to drive business growth.
                 </p>
                 <div class="hero-cta fade-in-up delay-4">
-                    <a href="#projects" class="btn primary-btn">View My Work</a>
-                    <a href="Gegin_Risho_Resume.pdf" target="_blank" class="btn secondary-btn"><i class="fas fa-file-pdf" style="margin-right: 8px;"></i> Resume</a>
-                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    <a href="#projects" class="btn primary-btn"><span>View My Work</span> <i class="fas fa-arrow-right"></i></a>
+                    <a href="Gegin_Risho_Resume.pdf" target="_blank" class="btn secondary-btn"><i class="fas fa-file-pdf"></i> Resume</a>
+                    <a href="#contact" class="btn gold-btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
                 </div>
             </div>
             
@@ -66,6 +77,7 @@
                     <p>
                         My journey involves designing, developing, and deploying software solutions through various academic projects and industry internships. I aim to contribute to data analytics, full-stack development, and backend systems to deliver robust, data-driven applications.
                     </p>
+                    
                     <div class="education-block mt-4">
                         <h3><i class="fas fa-award"></i> Certifications</h3>
                         <ul class="edu-list">
@@ -83,6 +95,7 @@
                             </li>
                         </ul>
                     </div>
+                    
                     <div class="education-block mt-4">
                         <h3><i class="fas fa-graduation-cap"></i> Education</h3>
                         <ul class="edu-list">
@@ -101,21 +114,22 @@
                         </ul>
                     </div>
                 </div>
-                <div class="about-stats glass-card fade-in-right">
-                    <div class="stat-box">
-                        <i class="fas fa-code highlight"></i>
+                
+                <div class="about-stats fade-in-right">
+                    <div class="stat-box glass-card">
+                        <i class="fas fa-code"></i>
                         <h4>Frontend & Backend</h4>
-                        <p>Specialized in HTML5, CSS3, Python, and SQL.</p>
+                        <p>Specialized in HTML5, CSS3, Python, and SQL databases.</p>
                     </div>
-                    <div class="stat-box">
-                        <i class="fas fa-brain highlight"></i>
+                    <div class="stat-box glass-card">
+                        <i class="fas fa-brain"></i>
                         <h4>Machine Learning</h4>
                         <p>Scikit-learn, Neural Networks (MLP), Data pipelines.</p>
                     </div>
-                    <div class="stat-box">
-                        <i class="fas fa-database highlight"></i>
-                        <h4>Data management</h4>
-                        <p>Schema design, SQL queries, Pandas, NumPy.</p>
+                    <div class="stat-box glass-card">
+                        <i class="fas fa-database"></i>
+                        <h4>Data Management</h4>
+                        <p>Schema design, SQL queries, Pandas, NumPy libraries.</p>
                     </div>
                 </div>
             </div>
@@ -172,6 +186,59 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Tech Stack Section -->
+            <h3 class="skills-subtitle fade-in delay-3">Technologies I Work With</h3>
+            <div class="tech-stack-grid fade-in-up delay-4">
+                <div class="tech-item glass-card">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-css3-plain colored"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-react-original colored"></i>
+                    <span>React</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-nextjs-plain"></i>
+                    <span>Next.js</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-typescript-plain colored"></i>
+                    <span>TypeScript</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-tailwindcss-original colored"></i>
+                    <span>Tailwind CSS</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-python-plain colored"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-fastapi-plain colored"></i>
+                    <span>FastAPI</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-postgresql-plain colored"></i>
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-git-plain colored"></i>
+                    <span>Git</span>
+                </div>
+                <div class="tech-item glass-card">
+                    <i class="devicon-github-original"></i>
+                    <span>GitHub</span>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -184,11 +251,11 @@
                     <div class="timeline-dot"></div>
                     <div class="glass-card timeline-content">
                         <span class="timeline-date">Feb 2026 - Mar 2026</span>
-                        <h3>Data Processing and Business Analytics Intern</h3>
+                        <h3>Data Processing & Analytics Intern</h3>
                         <h4>Anudip Foundation</h4>
                         <ul>
-                            <li>Completed a 2-month internship focusing on data processing and business analytics.</li>
-                            <li>Gained practical experience in analyzing business data to drive intelligent decision-making.</li>
+                            <li>Completed an intensive internship focusing on complex data processing pipelines and business analytics models.</li>
+                            <li>Gained hands-on experience in preparing data sets and analyzing metrics to support corporate decision-making.</li>
                         </ul>
                     </div>
                 </div>
@@ -200,9 +267,9 @@
                         <h3>Data Analytics Intern</h3>
                         <h4>ALO Info-Tech Pvt. Ltd.</h4>
                         <ul>
-                            <li>Gained hands-on experience in data analysis using tools like Excel, Python, and SQL.</li>
-                            <li>Worked with data visualization platforms such as Power BI or Tableau.</li>
-                            <li>Successfully completed the full data analytics internship program.</li>
+                            <li>Acquired practical skills in relational database queries, data wrangling (Excel/SQL), and pipeline analysis.</li>
+                            <li>Generated interactive BI dashboard views for regional metrics tracking.</li>
+                            <li>Successfully graduated from ALO's rigorous data analyst internship program.</li>
                         </ul>
                     </div>
                 </div>
@@ -214,8 +281,8 @@
                         <h3>Web Development Intern</h3>
                         <h4>AK Info Park</h4>
                         <ul>
-                            <li>Successfully completed a comprehensive web development internship program.</li>
-                            <li>Gained practical exposure to web technologies and front-end development workflows.</li>
+                            <li>Participated in front-end website sprints, coding interfaces using modern design aesthetics.</li>
+                            <li>Learned professional development lifecycle methods and collaborative design practices.</li>
                         </ul>
                     </div>
                 </div>
@@ -225,16 +292,13 @@
                     <div class="glass-card timeline-content">
                         <span class="timeline-date">2023</span>
                         <h3>Web Development Intern</h3>
-                        <h4>Code Bind Technologies, Chennai</h4>
+                        <h4>Code Bind Technologies</h4>
                         <ul>
-                            <li>Designed responsive web pages using HTML5 and CSS3, following best practices for semantic markup.</li>
-                            <li>Implemented UI components including navigation menus and product grids.</li>
-                            <li>Participated in code reviews and agile development cycles.</li>
-                            <li>Gained hands-on experience with front-end workflows.</li>
+                            <li>Coded structured, responsive web layouts using standard semantic HTML5 and CSS3 media rules.</li>
+                            <li>Supported testing, debugged browser alignment bugs, and improved responsive styling.</li>
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -244,56 +308,273 @@
         <div class="container">
             <h2 class="section-title fade-in">Featured Projects</h2>
             <div class="projects-grid">
+                
+                <!-- Project 1 (Featured Live) -->
                 <div class="project-card glass-card fade-in-up">
-                    <div class="project-image" style="background-image: url('file:///C:/Users/GeginRisho/.gemini/antigravity/brain/e139524d-a185-4e02-98ab-addc7efccc1e/ecommerce_mockup_1775812990617.png'); background-size: cover; background-position: center;">
-                        <div class="project-overlay">
-                            <a href="https://geginrisho.github.io/ecommerce/" target="_blank" class="preview-btn">View Live <i class="fas fa-external-link-alt"></i></a>
-                        </div>
+                    <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
+                    <div class="project-image-container">
+                        <img src="assets/projects/digital_twin.png" alt="TADIT Tamil Nadu Business Digital Twin Network" loading="lazy" class="project-img-element">
                     </div>
                     <div class="project-info">
-                        <h3>E-Commerce Web Application</h3>
+                        <h3>TADIT Digital Twin Network</h3>
+                        <span class="project-year">2025</span>
+                        <p>An IoT-enabled regional digital twin console designed to visualize 3D environments, manage streaming sensor telemetry, monitor business health indices, and predict anomalies.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Real-time telemetry data flow streaming</li>
+                                <li>3D scene visualization with Three.js</li>
+                                <li>Social sentiment and business index metrics</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>Three.js</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/tadit-digital-twin-platform" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://tadit-digital-twin-platform.vercel.app/" class="btn card-btn demo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 (Featured Live) -->
+                <div class="project-card glass-card fade-in-up delay-1">
+                    <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
+                    <div class="project-image-container">
+                        <img src="assets/projects/values_vruksha.png" alt="Values Vruksha Corporate Consulting Portal" loading="lazy" class="project-img-element">
+                    </div>
+                    <div class="project-info">
+                        <h3>Values Vruksha Portal</h3>
                         <span class="project-year">2024</span>
-                        <p>A fully functional static e-commerce website developed from scratch using HTML5 and CSS3. Features product listing pages, detail views, cart simulation, and mobile-friendly grid layouts.</p>
+                        <p>Corporate financial services website for Chennai-based consulting firm, offering client onboarding dashboards, Virtual CFO modules, direct MoU registrations, and training catalogs.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Comprehensive corporate services overview</li>
+                                <li>SWIPER-enabled training catalog slider</li>
+                                <li>Placement registration & MoUs registry</li>
+                            </ul>
+                        </div>
                         <div class="tech-stack">
                             <span>HTML5</span>
                             <span>CSS3</span>
-                            <span>Responsive Design</span>
+                            <span>JavaScript</span>
+                            <span>AOS Animations</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/Values-Vruksha" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://values-vruksha-website.vercel.app/" class="btn card-btn demo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card glass-card fade-in-up delay-1">
-                    <div class="project-image cyber-bg" style="background-image: url('file:///C:/Users/GeginRisho/.gemini/antigravity/brain/e139524d-a185-4e02-98ab-addc7efccc1e/cyberbullying_mockup_1775813006679.png'); background-size: cover; background-position: center;">
-                        <div class="project-overlay">
-                            <a href="https://cyberbullying-frontend-9uqz.onrender.com/" target="_blank" class="preview-btn">View Live <i class="fas fa-external-link-alt"></i></a>
-                        </div>
+                <!-- Project 3 (Featured Live) -->
+                <div class="project-card glass-card fade-in-up delay-2">
+                    <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
+                    <div class="project-image-container">
+                        <img src="assets/projects/hackathon_hub.png" alt="HackathonHub Event Organizer Console" loading="lazy" class="project-img-element">
                     </div>
                     <div class="project-info">
-                        <h3>Cyberbullying Detection System</h3>
+                        <h3>HackathonHub Console</h3>
                         <span class="project-year">2025</span>
-                        <p>An AI-powered system designed to detect cyberbullying on social media. Built a text classification pipeline using a Multi-Layer Perceptron (MLP) model with Scikit-learn, utilizing neutrosophic logic to handle ambiguous inputs.</p>
+                        <p>Event management portal enabling organizers to host events, panels to score submissions, and developers to assemble teams, match skills, and submit project profiles.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Team matching and skill assembly script</li>
+                                <li>Judges evaluative scoring console</li>
+                                <li>Real-time progress trackers & countdowns</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>Next.js</span>
+                            <span>TypeScript</span>
+                            <span>PostgreSQL</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/HackathonHub" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://hackathon-hub-steel.vercel.app/" class="btn card-btn demo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 (Featured Live) -->
+                <div class="project-card glass-card fade-in-up">
+                    <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
+                    <div class="project-image-container">
+                        <img src="assets/projects/admission_predictor.png" alt="AI College Admission Predictor Portal" loading="lazy" class="project-img-element">
+                    </div>
+                    <div class="project-info">
+                        <h3>AdmitAI College Predictor</h3>
+                        <span class="project-year">2024</span>
+                        <p>An intelligent web portal predicting collegiate admission likelihood and path selections based on performance indicators using Scikit-Learn regression pipelines.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>AI admission likelihood prediction</li>
+                                <li>Tailored course recommendation generator</li>
+                                <li>Performance index charting dashboard</li>
+                            </ul>
+                        </div>
                         <div class="tech-stack">
                             <span>Python</span>
-                            <span>Machine Learning</span>
+                            <span>FastAPI</span>
                             <span>Scikit-Learn</span>
+                            <span>HTML5 / CSS3</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/admitai-college-admission-predictor" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://admitai-college-admission-predictor.vercel.app/login" class="btn card-btn demo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card glass-card fade-in-up delay-2">
-                    <div class="project-image cyber-bg" style="background-image: url('file:///C:/Users/GeginRisho/.gemini/antigravity/brain/5ce56386-dd2c-4152-b685-c747ec5b43a5/ecommerce_dashboard_mockup_1775820827853.png'); background-size: cover; background-position: center;">
-                        <div class="project-overlay">
-                            <a href="https://github.com/GeginRisho/Global-E-Commerce-Sales" target="_blank" class="preview-btn">View Code <i class="fab fa-github"></i></a>
-                        </div>
+                <!-- Project 5 -->
+                <div class="project-card glass-card fade-in-up delay-1">
+                    <div class="project-image-container">
+                        <img src="assets/projects/hospital_management.png" alt="AI Hospital Management System" loading="lazy" class="project-img-element">
                     </div>
                     <div class="project-info">
-                        <h3>Global E-Commerce Sales</h3>
+                        <h3>AI Hospital Management System</h3>
+                        <span class="project-year">2025</span>
+                        <p>A smart healthcare facility portal supporting appointment booking, staff assignment matrices, secure EHR ledgers, and an AI symptoms-matching model.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Intelligent doctor-symptom index matching</li>
+                                <li>Real-time booking and calendar updates</li>
+                                <li>Secure patient EHR record repository</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>FastAPI</span>
+                            <span>React</span>
+                            <span>PostgreSQL</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/hospital" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card glass-card fade-in-up delay-2">
+                    <div class="project-image-container">
+                        <img src="assets/projects/portfolio_site.png" alt="Personal Portfolio Website" loading="lazy" class="project-img-element">
+                    </div>
+                    <div class="project-info">
+                        <h3>Premium Portfolio Redesign</h3>
                         <span class="project-year">2026</span>
-                        <p>An interactive data analytics dashboard and report developed to analyze global e-commerce sales. This project processes large-scale business data to showcase key performance metrics, regional sales trends, and identify insights using Excel and Power BI.</p>
+                        <p>Personal portfolio site redesign engineered with luxury Blue & Gold light mode layout, scroll revealing animations, and dynamic GitHub projects console.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Sticky transparent navbar & burger menu</li>
+                                <li>Premium glassmorphic cards and gradients</li>
+                                <li>Dynamic GitHub repository integrations</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Git / GitHub</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/Portfolio" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="#" class="btn card-btn demo-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card glass-card fade-in-up">
+                    <div class="project-image-container">
+                        <img src="assets/projects/ecommerce_site.png" alt="Static E-commerce Shop Site" loading="lazy" class="project-img-element">
+                    </div>
+                    <div class="project-info">
+                        <h3>Static E-commerce Platform</h3>
+                        <span class="project-year">2024</span>
+                        <p>Fully styled e-commerce storefront showcasing product grids, responsive filtering, product detail modals, and simulated cart management.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Structured, responsive storefront listing</li>
+                                <li>Detailed product details popups</li>
+                                <li>Client-side checkout and cart tracker</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/ecommerce" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://geginrisho.github.io/ecommerce/" class="btn card-btn demo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card glass-card fade-in-up delay-1">
+                    <div class="project-image-container">
+                        <img src="assets/projects/cyberbullying_detection.png" alt="Cyberbullying Text Classification Model" loading="lazy" class="project-img-element">
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Cyberbullying Detection</h3>
+                        <span class="project-year">2025</span>
+                        <p>A sentiment analysis console detecting bullying texts using an MLP Neural Network pipeline in Scikit-Learn with neutrosophic logical decision models.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Multilingual classification classifier</li>
+                                <li>Neutrosophic criteria handling logic</li>
+                                <li>Real-time chat test dashboard environment</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Scikit-Learn</span>
+                            <span>JavaScript</span>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/cyberbullying" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://cyberbullying-frontend-9uqz.onrender.com/" class="btn card-btn demo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card glass-card fade-in-up delay-2">
+                    <div class="project-image-container">
+                        <img src="assets/projects/sales_dashboard.png" alt="Global E-Commerce Sales BI Dashboard" loading="lazy" class="project-img-element">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Sales Dashboard</h3>
+                        <span class="project-year">2026</span>
+                        <p>An interactive business analytics dashboard analyzing global metrics, cohorts, sales channels, and profit margins across multiple regions.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Interactive geographical metrics maps</li>
+                                <li>Revenue trend cohort comparisons</li>
+                                <li>Multi-segment visual analytics filters</li>
+                            </ul>
+                        </div>
                         <div class="tech-stack">
                             <span>Microsoft Excel</span>
                             <span>Power BI</span>
                             <span>Data Analysis</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/Global-E-Commerce-Sales" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
                         </div>
                     </div>
                 </div>
@@ -302,29 +583,133 @@
         </div>
     </section>
 
+    <!-- GitHub Projects Section -->
+    <section id="github-projects" class="github-projects section">
+        <div class="container">
+            <h2 class="section-title fade-in">GitHub Repositories</h2>
+            
+            <!-- Controls (Search & Filters) -->
+            <div class="github-controls fade-in-up">
+                <div class="search-input-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="repo-search" placeholder="Search repositories by name...">
+                </div>
+                <div>
+                    <select id="repo-lang-filter">
+                        <option value="all">All Languages</option>
+                    </select>
+                </div>
+                <div>
+                    <select id="repo-sort">
+                        <option value="updated">Sort by: Last Updated</option>
+                        <option value="stars">Sort by: Stars</option>
+                        <option value="name">Sort by: Name</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Loader / Repo Grid -->
+            <div id="github-repos-container">
+                <div class="spinner" id="github-spinner"></div>
+                <div id="github-repos-grid" class="repos-grid" style="display: none;">
+                    <!-- JavaScript dynamically injects repo cards here -->
+                </div>
+            </div>
+
+            <!-- Pagination Load More -->
+            <div class="load-more-container fade-in-up" id="load-more-container" style="display: none;">
+                <button id="load-more-btn" class="btn gold-btn"><span>Load More Repositories</span> <i class="fas fa-sync-alt"></i></button>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container">
-            <div class="contact-box glass-card fade-in">
-                <h2>Let's connect</h2>
-                <p>I am currently available for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
-                <div class="contact-details">
-                    <a href="mailto:geginrisho@gmail.com" class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>geginrisho@gmail.com</span>
-                    </a>
-                    <a href="tel:+918300568519" class="contact-item">
-                        <i class="fas fa-phone-alt"></i>
-                        <span>+91 8300568519</span>
-                    </a>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Kanyakumari District, Tamil Nadu</span>
+            <h2 class="section-title fade-in">Let's Connect</h2>
+            
+            <div class="contact-grid">
+                <!-- Info cards -->
+                <div class="contact-info-panel fade-in-right">
+                    <h2>Reach Out</h2>
+                    <p>I am always open to new opportunities, analytics projects, full-stack roles, or technical discussions. Leave a message and I'll get back to you promptly!</p>
+                    
+                    <div class="contact-cards">
+                        <a href="mailto:geginrisho@gmail.com" class="contact-card-item glass-card">
+                            <div class="contact-icon-box">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail-text">
+                                <h4>Email</h4>
+                                <p>geginrisho@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <a href="tel:+918300568519" class="contact-card-item glass-card">
+                            <div class="contact-icon-box">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-detail-text">
+                                <h4>Phone</h4>
+                                <p>+91 83005 68519</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/geginrisho" target="_blank" class="contact-card-item glass-card">
+                            <div class="contact-icon-box">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-detail-text">
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/geginrisho</p>
+                            </div>
+                        </a>
+
+                        <a href="https://github.com/GeginRisho" target="_blank" class="contact-card-item glass-card">
+                            <div class="contact-icon-box">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-detail-text">
+                                <h4>GitHub</h4>
+                                <p>github.com/GeginRisho</p>
+                            </div>
+                        </a>
+
+                        <div class="contact-card-item glass-card">
+                            <div class="contact-icon-box">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-detail-text">
+                                <h4>Location</h4>
+                                <p>Kanyakumari, Tamil Nadu</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/geginrisho" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://github.com/geginrisho" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+
+                <!-- Contact form panel -->
+                <div class="contact-form-panel glass-card fade-in-left" id="contact-form-container">
+                    <form id="contact-form" autocomplete="off">
+                        <div class="form-group">
+                            <label for="form-name">Name</label>
+                            <input type="text" id="form-name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Email</label>
+                            <input type="email" id="form-email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" placeholder="Collaboration Inquiry" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" placeholder="Hi Gegin, I'd like to collaborate on..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn" style="width: 100%;">
+                            <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -333,9 +718,30 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Gegin Risho D. All rights reserved.</p>
+            <div class="footer-divider"></div>
+            <div class="footer-grid">
+                <ul class="footer-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#github-projects">GitHub</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="mailto:geginrisho@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/geginrisho" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/GeginRisho" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+                <p class="copyright">&copy; 2026 Gegin Risho D. All rights reserved. Designed with luxury Blue & Gold light theme.</p>
+            </div>
         </div>
     </footer>
+
+    <!-- Back to top and dynamic buttons -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
