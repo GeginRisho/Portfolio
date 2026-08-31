@@ -342,8 +342,8 @@ p {
 
 .hero-grid {
     display: grid;
-    grid-template-columns: 1.4fr 0.8fr;
-    gap: 3rem;
+    grid-template-columns: 1.55fr 0.75fr;
+    gap: 2rem;
     align-items: center;
 }
 
