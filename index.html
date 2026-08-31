@@ -46,9 +46,9 @@
                 <div class="hero-cta fade-in-up delay-4">
                     <a href="#projects" class="btn primary-btn"><span>View My Work</span> <i class="fas fa-arrow-right"></i></a>
                     <a href="Gegin_Risho_Resume.pdf" target="_blank" class="btn secondary-btn"><i class="fas fa-file-pdf"></i> Resume</a>
-                    <a href="#contact" class="btn gold-btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
-                    <a href="https://github.com/GeginRisho" target="_blank" class="btn gold-btn"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://www.linkedin.com/in/geginrisho" target="_blank" class="btn gold-btn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    <a href="#contact" class="btn secondary-btn"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                    <a href="https://github.com/GeginRisho" target="_blank" class="btn secondary-btn"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/geginrisho" target="_blank" class="btn secondary-btn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
                 </div>
                 
                 <div class="hero-tech-badges fade-in-up delay-4">
@@ -77,7 +77,11 @@
     <!-- About Section -->
     <section id="about" class="about section">
         <div class="container">
-            <h2 class="section-title fade-in">About Me</h2>
+            <div class="section-header fade-in">
+                <span class="section-label">BIOGRAPHY</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">A brief look into my background, education, and professional certifications.</p>
+            </div>
             <div class="about-grid">
                 <div class="about-text glass-card fade-in-left">
                     <p>
@@ -184,7 +188,11 @@
     <!-- Skills Section -->
     <section id="skills" class="skills section">
         <div class="container">
-            <h2 class="section-title fade-in">Technical Skills</h2>
+            <div class="section-header fade-in">
+                <span class="section-label">EXPERTISE</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">The tech stack and tools I use to build robust, data-driven applications.</p>
+            </div>
             <div class="skills-grid">
                 <div class="skill-category glass-card fade-in-up">
                     <div class="category-header">
@@ -329,7 +337,11 @@
     <!-- Experience Section -->
     <section id="experience" class="experience section">
         <div class="container">
-            <h2 class="section-title fade-in">Experience</h2>
+            <div class="section-header fade-in">
+                <span class="section-label">JOURNEY</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <p class="section-subtitle">My career timeline and internship history in software development and analytics.</p>
+            </div>
             <div class="timeline">
                 <div class="timeline-item left fade-in-right">
                     <div class="timeline-dot"></div>
@@ -390,11 +402,77 @@
     <!-- Projects Section -->
     <section id="projects" class="projects section">
         <div class="container">
-            <h2 class="section-title fade-in">Featured Projects</h2>
+            <div class="section-header fade-in">
+                <span class="section-label">PORTFOLIO</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A curated selection of my work in AI, full stack development, and data engineering.</p>
+            </div>
             <div class="projects-grid">
                 
-                <!-- Project 1 (AdmitAI - First Highlighted AI Project) -->
+                <!-- Project: ByteQuest Gaming Platform -->
                 <div class="project-card glass-card fade-in-up">
+                    <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
+                    <div class="project-image-container">
+                        <img src="assets/projects/byquest.png" alt="ByteQuest Student Studying and Gaming App" loading="lazy" class="project-img-element">
+                    </div>
+                    <div class="project-info">
+                        <h3>ByteQuest Gaming Platform</h3>
+                        <span class="project-year">2026</span>
+                        <p>A gamified educational platform for school students, combining interactive gaming mechanics with study modules to help students learn academic subjects in an engaging environment.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Gamified study challenges &amp; quizzes</li>
+                                <li>Progress tracking &amp; reward systems</li>
+                                <li>Interactive subject-based learning paths</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>HTML5 / CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/ByteQuest" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://bytequest-livid.vercel.app/" class="btn card-btn demo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project: Showtime Ticket Booking -->
+                <div class="project-card glass-card fade-in-up delay-1">
+                    <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
+                    <div class="project-image-container">
+                        <img src="assets/projects/ticket_booking.png" alt="Showtime Movie and Event Ticket Booking Portal" loading="lazy" class="project-img-element">
+                    </div>
+                    <div class="project-info">
+                        <h3>Showtime Ticket Booking</h3>
+                        <span class="project-year">2026</span>
+                        <p>A feature-rich movie and event ticket booking application inspired by BookMyShow, featuring interactive seat selection charts and booking management panels.</p>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Interactive seating layout selector</li>
+                                <li>Real-time movie showtime scheduler</li>
+                                <li>Dynamic booking confirmation &amp; e-tickets</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>HTML5 / CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="https://github.com/GeginRisho/ticket-booking" class="btn card-btn github-btn" target="_blank"><i class="fab fa-github"></i> Repo</a>
+                            <a href="https://ticket-booking-sable-omega.vercel.app/" class="btn card-btn demo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 1 (AdmitAI - First Highlighted AI Project) -->
+                <div class="project-card glass-card fade-in-up delay-2">
                     <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
                     <div class="project-image-container">
                         <img src="assets/projects/admission_predictor.png" alt="AI College Admission Predictor Portal" loading="lazy" class="project-img-element">
@@ -425,7 +503,7 @@
                 </div>
 
                 <!-- Project 2 (TADIT) -->
-                <div class="project-card glass-card fade-in-up delay-1">
+                <div class="project-card glass-card fade-in-up">
                     <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
                     <div class="project-image-container">
                         <img src="assets/projects/digital_twin.png" alt="TADIT Tamil Nadu Business Digital Twin Network" loading="lazy" class="project-img-element">
@@ -456,7 +534,7 @@
                 </div>
 
                 <!-- Project 3 (Hackathon Hub) -->
-                <div class="project-card glass-card fade-in-up delay-2">
+                <div class="project-card glass-card fade-in-up delay-1">
                     <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
                     <div class="project-image-container">
                         <img src="assets/projects/hackathon_hub.png" alt="HackathonHub Event Organizer Console" loading="lazy" class="project-img-element">
@@ -487,7 +565,7 @@
                 </div>
 
                 <!-- Project 4 (Values Vruksha) -->
-                <div class="project-card glass-card fade-in-up">
+                <div class="project-card glass-card fade-in-up delay-2">
                     <span class="featured-badge"><i class="fas fa-star"></i> Featured</span>
                     <div class="project-image-container">
                         <img src="assets/projects/values_vruksha.png" alt="Values Vruksha Corporate Consulting Portal" loading="lazy" class="project-img-element">
@@ -518,7 +596,7 @@
                 </div>
 
                 <!-- Project 5 -->
-                <div class="project-card glass-card fade-in-up delay-1">
+                <div class="project-card glass-card fade-in-up">
                     <div class="project-image-container">
                         <img src="assets/projects/hospital_management.png" alt="AI Hospital Management System" loading="lazy" class="project-img-element">
                     </div>
@@ -547,7 +625,7 @@
                 </div>
 
                 <!-- Project 6 -->
-                <div class="project-card glass-card fade-in-up delay-2">
+                <div class="project-card glass-card fade-in-up delay-1">
                     <div class="project-image-container">
                         <img src="assets/projects/portfolio_site.png" alt="Personal Portfolio Website" loading="lazy" class="project-img-element">
                     </div>
@@ -577,7 +655,7 @@
                 </div>
 
                 <!-- Project 7 -->
-                <div class="project-card glass-card fade-in-up">
+                <div class="project-card glass-card fade-in-up delay-2">
                     <div class="project-image-container">
                         <img src="assets/projects/ecommerce_site.png" alt="Static E-commerce Shop Site" loading="lazy" class="project-img-element">
                     </div>
@@ -606,7 +684,7 @@
                 </div>
 
                 <!-- Project 8 -->
-                <div class="project-card glass-card fade-in-up delay-1">
+                <div class="project-card glass-card fade-in-up">
                     <div class="project-image-container">
                         <img src="assets/projects/cyberbullying_detection.png" alt="Cyberbullying Text Classification Model" loading="lazy" class="project-img-element">
                     </div>
@@ -636,7 +714,7 @@
                 </div>
 
                 <!-- Project 9 -->
-                <div class="project-card glass-card fade-in-up delay-2">
+                <div class="project-card glass-card fade-in-up delay-1">
                     <div class="project-image-container">
                         <img src="assets/projects/sales_dashboard.png" alt="Global E-Commerce Sales BI Dashboard" loading="lazy" class="project-img-element">
                     </div>
@@ -670,7 +748,11 @@
     <!-- GitHub Projects Section -->
     <section id="github-projects" class="github-projects section">
         <div class="container">
-            <h2 class="section-title fade-in">GitHub Repositories</h2>
+            <div class="section-header fade-in">
+                <span class="section-label">CODEBASE</span>
+                <h2 class="section-title">GitHub Repositories</h2>
+                <p class="section-subtitle">My active repositories, open source contributions, and personal developer work.</p>
+            </div>
             
             <!-- Controls (Search & Filters) -->
             <div class="github-controls fade-in-up">
@@ -710,7 +792,11 @@
     <!-- Contact Section -->
     <section id="contact" class="contact section">
         <div class="container">
-            <h2 class="section-title fade-in">Let's Connect</h2>
+            <div class="section-header fade-in">
+                <span class="section-label">CONTACT</span>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Feel free to reach out for collaboration, opportunities, or technical inquiries.</p>
+            </div>
             
             <div class="contact-grid">
                 <!-- Info cards -->
